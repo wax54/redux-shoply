@@ -1,0 +1,20 @@
+.ItemCard {
+    flex: 1 1;
+    min-width: 300px;
+    /* border: 3px solid grey; */
+    background-color: darkgrey;
+    margin: 0.5rem;
+    border-radius: 20px;
+}
+
+.ItemCard-image {
+    mix-blend-mode: multiply;
+    width: 90%;
+    background-color: white;
+}
+
+.ItemCard-btn-container {
+    width: 80%;
+    margin: auto;
+}
+

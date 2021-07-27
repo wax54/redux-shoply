@@ -1,5 +1,6 @@
-import { useSelector, shallowEqual } from "react-redux"
-import ItemList from "./ItemList";
+import { useSelector } from "react-redux"
+import { Link } from "react-router-dom";
+import ItemList from "./Item/ItemList";
 import "./Cart.css";
 
 const Cart = () => {
@@ -14,7 +15,7 @@ const Cart = () => {
             <h4>FYI, there {itemsInCart === 1 ? "is" : "are"} {itemsInCart} items in your cart right now!</h4>
             {itemsInCart ? 
                 <ItemList items={cart} /> :
-                <div>Get Shopping!</div>
+                <Link className="btn" to="/">Get Shopping!</Link>
             }
         </div>
     )

@@ -1,0 +1,35 @@
+/* #TODO  Change names to CartButtons-btn etc..*/
+.CartButtons-btn-container{
+    display: flex;
+    flex-direction: row;
+}
+.CartButtons-btn {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    font-size: x-large;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+.CartButtons-add-to-cart {
+    background-color: green;
+    border: 2px solid darkgreen;
+}
+
+.CartButtons-add-to-cart:hover {
+    background-color: darkgreen;
+    border: 2px solid darkolivegreen;
+    color: white;
+}
+
+.CartButtons-remove-from-cart {
+    background-color: red;
+    border: 2px solid darkred;
+}
+.CartButtons-remove-from-cart:hover {
+    background-color: darkred;
+    border: 2px solid maroon;
+    color: white;
+}

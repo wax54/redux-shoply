@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import ItemList from './ItemList';
+import ItemList from './Item/ItemList';
 import "./InventoryList.css"
 
 const InventoryList = () => {
