@@ -1,9 +1,9 @@
-import Item from './Item';
-
+import ItemCard from './ItemCard';
+import "./ItemList.css"
 const ItemList = ({ items }) => (
     <div className="ItemList">
         {Object.keys(items).map(key => 
-            <Item key={key} item={{...items[key], id: key}} />)}
+            <ItemCard key={key} item={{...items[key], id: key}} />)}
     </div>
 );
 

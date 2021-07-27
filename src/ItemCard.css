@@ -1,0 +1,48 @@
+.ItemCard {
+    flex: 1 1;
+    min-width: 300px;
+    /* border: 3px solid grey; */
+    background-color: darkgrey;
+    margin: 0.5rem;
+    border-radius: 20px;
+}
+
+.ItemCard-image {
+    width: 90%;
+    background-color: white;
+}
+
+.ItemCard-btn-container {
+    width: 80%;
+    margin: auto;
+}
+
+.ItemCard-btn {
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+    font-size: x-large;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.ItemCard-add-to-cart {
+    background-color: green;
+    border: 2px solid darkgreen;
+}
+
+.ItemCard-add-to-cart:hover {
+    background-color: darkgreen;
+    border: 2px solid darkolivegreen;
+    color: white;
+}
+
+.ItemCard-remove-from-cart {
+    background-color: red;
+    border: 2px solid darkred;
+}
+.ItemCard-remove-from-cart:hover {
+    background-color: darkred;
+    border: 2px solid maroon;
+    color: white;
+}

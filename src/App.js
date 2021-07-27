@@ -6,9 +6,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Cart />
-        <InventoryList /> 
+        Welcome To My Store!
       </header>
+      <main className="App-main">
+
+        <InventoryList />
+        <Cart />
+      </main>
     </div>
   );
 }
