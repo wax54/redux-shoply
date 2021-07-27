@@ -1,9 +1,10 @@
 import Item from './Item';
+
 const ItemList = ({ items }) => (
-    <ul>
+    <div className="ItemList">
         {Object.keys(items).map(key => 
             <Item key={key} item={{...items[key], id: key}} />)}
-    </ul>
+    </div>
 );
 
 export default ItemList

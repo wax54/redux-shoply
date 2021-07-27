@@ -1,0 +1,32 @@
+.Item {
+    display: inline-block;
+    border: 3px solid grey;
+    margin: 0.5rem;
+    border-radius: 20px;
+}
+
+.Item-btn {
+    padding: 10px;
+    margin: 5px;
+}
+
+.Item-add-to-cart {
+    background-color: green;
+    border: 2px solid darkgreen;
+}
+
+.Item-add-to-cart:hover {
+    background-color: darkgreen;
+    border: 2px solid darkolivegreen;
+    color: white;
+}
+
+.Item-remove-from-cart {
+    background-color: red;
+    border: 2px solid darkred;
+}
+.Item-remove-from-cart:hover {
+    background-color: darkred;
+    border: 2px solid maroon;
+    color: white;
+}
