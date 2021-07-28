@@ -1,4 +1,4 @@
-import CartButtons from "../CartButtons";
+import ItemButtons from "./ItemButtons";
 import "./ItemCard.css";
 import { useHistory } from "react-router";
 import ItemImage from "./ItemImage";
@@ -18,7 +18,7 @@ const ItemCard = ({ item }) => {
             <ItemImage image_url={image_url} name={name} />
             <h4 className="ItemCard-header">{name} - ${price}</h4>
             
-            <CartButtons item={item} />
+            <ItemButtons item={item} />
         </div>
 )};
 export default ItemCard

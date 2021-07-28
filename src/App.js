@@ -32,11 +32,11 @@ function App() {
 }
 
 function AppHeader () {
-  const itemsInCart = useSelector(state => {
+  const itemsInCart = useSelector(state => (
     Object.keys(state.cart).reduce((totalItems, key) => (
       totalItems + state.cart[key].qty
-    ), 0);
-  });
+    ), 0)
+  ));
   return (
     <header className="App-header">
       <Link to="/" >
