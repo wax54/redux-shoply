@@ -7,7 +7,6 @@ import ItemImage from "./ItemImage";
 const ItemDetail = () => {
     const id = useParams().id;
     const item = useSelector(state => state.inventory[id]);
-    const backgroundColor = randColor();
     if (!item) {
         return <Redirect to="/" />
     }

@@ -9,7 +9,7 @@ const ItemButtons = ({item}) => {
     const qty = useSelector(state => state.cart[id] ? state.cart[id].qty : 0);
 
     const totalPrice = (price * qty).toFixed(2);
-    
+
     const qtyDescription = (
         <div className="ItemButtons-quantity">
             ${price} X {qty} = ${totalPrice}
@@ -38,8 +38,8 @@ const ItemButtons = ({item}) => {
                 }
             </div>
             {qty ? 
-                { qtyDescription } 
-                : 
+                qtyDescription
+            : 
                 <div className="ItemButtons-none-ordered">
                     Press the Big Green Button To Order
                 </div>

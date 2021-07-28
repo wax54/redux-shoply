@@ -1,0 +1,3 @@
+Inconsistency when items in cart are added, the whole cart rerenders, while everywhere else, it does not change color. 
+I wonder which I like better....
+The state is held in the cart, for while 
